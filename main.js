@@ -1,3 +1,7 @@
+if(window.location.hostname === '127.0.0.1') {
+    window.location = 'http://localhost:1898';
+}
+
 /**
 * Helper function to target a moving server during development
 */

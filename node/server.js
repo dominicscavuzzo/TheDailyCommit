@@ -6,9 +6,9 @@ var mongo_url = 'mongodb://localhost:27017/apcsp';
 
 Mongo.connect(mongo_url, function(err, db) {
   if(err) {
-    log('MongoDB connection error');
+    console.log('MongoDB connection error');
   } else {
-    log('Connected to MongoDB');
+    console.log('Connected to MongoDB');
   }
 }); 
 
