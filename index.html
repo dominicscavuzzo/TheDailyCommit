@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+   
 <head>
-    <meta charset="UTF-8">
-    <meta name="google-signin-client_id" content="10606732164-shosfltpamv3qnka6cr9vsr8dncj32b5.apps.googleusercontent.com">
-    <title>Document</title>
+   <meta name="google-signin-client_id" content="10606732164-shosfltpamv3qnka6cr9vsr8dncj32b5.apps.googleusercontent.com">
 </head>
+
 <body>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <div class="g-signin2" data-onsuccess="onSignIn"></div>
+   <a href="#" onclick="signOut();">Sign out</a>
+   <a href="#" onclick="disconnect();">Disconnect</a>
+   
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="main.js"></script>
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
+
 </html>
